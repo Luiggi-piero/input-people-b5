@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input people</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container w-50 my-5">
+      <div class="input-people border border-dark rounded-1 p-2 d-flex">
+        <!-- pe: padding end - padding a la derecha -->
+        <div class="people pe-1 d-flex gap-2">
+          <div class="btn-group">
+            <button
+              class="btn btn-outline-secondary border-end-0 d-flex align-items-center gap-1"
+            >
+              <img
+                src="./img/christian-buehner-6YQmQgcQ0VA-unsplash.jpg"
+                width="32"
+                alt=""
+                class="rounded-circle border border-3 border-danger"
+              />
+              Aegon Targaryen
+            </button>
+            <button
+              data-bs-toggle="dropdown"
+              class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split border-start-0"
+            >
+              <span class="visually-hidden">Toggle dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#" class="dropdown-item">Acción 1</a></li>
+              <li><a href="#" class="dropdown-item">Acción 2</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a href="#" class="dropdown-item">Otra acción</a></li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button
+              class="btn btn-outline-secondary border-end-0 d-flex align-items-center gap-1"
+            >
+              <img
+                src="./img/christian-buehner-6YQmQgcQ0VA-unsplash.jpg"
+                width="32"
+                alt=""
+                class="rounded-circle border border-3 border-success"
+              />
+              Jarol Torres
+            </button>
+            <button
+              data-bs-toggle="dropdown"
+              class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split border-start-0"
+            >
+              <span class="visually-hidden">Toggle dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#" class="dropdown-item">Acción 1</a></li>
+              <li><a href="#" class="dropdown-item">Acción 2</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a href="#" class="dropdown-item">Otra acción</a></li>
+            </ul>
+          </div>
+          <input type="text" class="d-flex input-text outline-0 border-0">
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
